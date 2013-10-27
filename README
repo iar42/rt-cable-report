@@ -9,7 +9,7 @@ Cables with the same Cable-ID are treated and displayed as the same line.
 For example cables spanning one or more patch panels.
 
 The code is probably not very portable as it's using direct SQL queries
-but it works with version 0.25 of Racktables.
+but it works with version 0.20.5 of Racktables.
 
 INSTALLATION
 
