@@ -1,0 +1,18 @@
+DESCRIPTION
+
+A custom report for Racktables with list af all cables in the system.
+
+Cables are sorted by Cable-ID with the highest on top for easy access to
+the next free Cable-ID.
+
+Cables with the same Cable-ID are treated and displayed as the same line.
+For example cables spanning one or more patch panels.
+
+The code is probably not very portable as it's using direct SQL queries
+but it works with version 0.25 of Racktables.
+
+INSTALLATION
+
+Copy the file all-cables.php into the plugins directory.
+The plugins directory is on the same level as Racktables wwwroot directory.
+
