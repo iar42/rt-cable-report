@@ -21,7 +21,6 @@ function DisplayAllCables()
 	         'ORDER BY ' . trim($order_by);
 
 	$result = usePreparedSelectBlade ($query);
-	$row = $result->fetch (PDO::FETCH_ASSOC);
 
 	$direction = ($direction == 'DESC') ? 'ASC' : 'DESC';
 
