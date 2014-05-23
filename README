@@ -5,8 +5,9 @@ A custom report for Racktables with list af all cables in the system.
 Cables are sorted by default on Cable-ID with the highest on top for easy
 access to the next free Cable-ID.
 
-The code is probably not very portable as it's using direct SQL queries
-but it works with version 0.20.5 of Racktables.
+Tested with Racktables 0.20.5 and 0.20.7.
+
+The code has also been merged with RackTables/racktables-contrib on Github.
 
 INSTALLATION
 
